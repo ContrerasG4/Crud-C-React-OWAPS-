@@ -1,0 +1,8 @@
+const moneda = new Intl.NumberFormat('es-CO', {
+  style: 'currency',
+  currency: 'COP',
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 2,
+});
+
+export const formatoMoneda = (valor) => moneda.format(valor);

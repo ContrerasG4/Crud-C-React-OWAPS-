@@ -1,0 +1,8 @@
+bin/
+obj/
+node_modules/
+dist/
+.vs/
+*.user
+appsettings*.json
+#La carpeta 'database' no se incluye aquí para que la base de datos de prueba se suba al repositorio.
